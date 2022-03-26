@@ -1,0 +1,26 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3120ZX/dashboard.git"
+  },
+  "author": "Eduardo Trevis Angky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3120ZX/dashboard/issues"
+  },
+  "homepage": "https://github.com/3120ZX/dashboard#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
