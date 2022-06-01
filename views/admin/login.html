@@ -1,14 +1,20 @@
-Login page
+Login page<br>
+
 <form action="/admin/login" method="POST">
-    <div>
-        <label for="username">Username</label>
+    <div id="error-msg">
+        <% if (messages.error) {%>
+            <%= messages.error%>
+        <% } %>
+    </div>
+    <div id="username-input">
+        <label for="username">Username</label><br>
         <input type="text" id="username" name="username" required>
     </div>
-    <div>
-        <label for="password">Password</label>
+    <div id="password-input">
+        <label for="password">Password</label><br>
         <input type="password" id="password" name="password" required>
     </div>
-    <button type="submit">submit</button><br>
+    <button id="login-button" type="submit">Login</button><br>
     
 </form>
 <a href="/">Dashboard</a>
